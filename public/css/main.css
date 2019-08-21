@@ -1,0 +1,24 @@
+#logo{
+    width: 237px;
+}
+.search-content{
+    background-image: url('https://dev.skybooking.net/flight/images/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-search{
+    /* position: absolute; */
+    z-index: 1;
+    font-size: 60px;
+    color: #fff;
+    top: 65px;
+    right: 14pc;
+    text-align: right;
+    font-family: 'Algerian';
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 4px;
+}
+.about-1{
+    font-size: 150px;
+}

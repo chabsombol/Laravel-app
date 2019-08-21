@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+// Route::get('index',function(){
+//     return view('master.index');
+// });
+// Route::get('/', function(){
+//     return view('home.home');
+// });
+
+Route::get('/','main@home');
+Route::get('about','main@about');
+Route::get('about','main@contact');
