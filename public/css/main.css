@@ -1,24 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 #logo{
-    width: 237px;
+    width: 105px;
 }
-.search-content{
-    background-image: url('https://dev.skybooking.net/flight/images/banner2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.title-search{
-    /* position: absolute; */
-    z-index: 1;
-    font-size: 60px;
+
+.footer{
+    background-color: #3d3d3d;
     color: #fff;
-    top: 65px;
-    right: 14pc;
-    text-align: right;
-    font-family: 'Algerian';
-    font-weight: 500;
-    line-height: 75px;
-    letter-spacing: 4px;
 }
-.about-1{
-    font-size: 150px;
+.copy{
+    background-color: #1f1f1f;
 }
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(0,0,0,.9);
+    font-size: 14px;
+}
+.dropdown:hover>.dropdown-menu {
+    font-size: 14px;
+}
+@media (min-width: 1281px) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+     }
+     /* .navbar-expand-sm .navbar-nav .dropdown-menu {
+        position: absolute;
+        margin-top: 18px;
+    } */
+    .dropdown-item:hover {
+        color: #1e56a4
+    }
+ }
+

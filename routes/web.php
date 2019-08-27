@@ -23,4 +23,4 @@
 
 Route::get('/','main@home');
 Route::get('about','main@about');
-Route::get('about','main@contact');
+Route::get('contact','main@contact');

@@ -15,6 +15,6 @@ class main extends Controller
         return view("about.about");
     }
     public function contact(){
-        return view('Contact-us.contact');
+        return view('Contact.contact');
     }
 }
